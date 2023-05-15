@@ -1,0 +1,15 @@
+.progress__title {
+  width: 140px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.2;
+  padding: 0;
+  margin: 5px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .progress__title {
+    font-size: 15px;
+    width: 75px;
+  }
+}

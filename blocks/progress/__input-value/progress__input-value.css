@@ -1,0 +1,25 @@
+.progress__input-value {
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.2;
+  width: 67px;
+  height: 40px;
+  border: 1.5px solid;
+  border-radius: 50px;
+  text-align: center;
+  color: #000;
+}
+
+.progress__input-value:focus {
+  outline-color: #005bff;
+}
+
+@media screen and (max-width: 767px) {
+  .progress__input-value {
+    font-size: 15px;
+    width: 57px;
+    height: 30px;
+  }
+}

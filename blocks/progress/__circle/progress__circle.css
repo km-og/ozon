@@ -1,0 +1,47 @@
+.progress__circle {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: 0;
+  position: relative;
+  background: #eff3f6;
+}
+
+.progress__circle::before {
+  content: "";
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+@media screen and (max-width: 767px) {
+  .progress__circle {
+    width: 200px;
+    height: 200px;
+  }
+
+  .progress__circle::before {
+    content: "";
+    width: 160px;
+    height: 160px;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .progress__circle {
+    width: 150px;
+    height: 150px;
+  }
+
+  .progress__circle::before {
+    content: "";
+    width: 120px;
+    height: 120px;
+  }
+}

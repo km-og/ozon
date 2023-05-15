@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Inessa Kim">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Progress</title>
+</head>
+
+<body class="body">
+  <div class="page">
+
+
+    <div class="progress">
+      <h1 class="progress__title">Progress</h1>
+
+      <div class="progress__container ">
+        <div class="progress__circle"></div>
+        <div class="progress__inputs">
+
+          <div class="progress__input">
+            <input type="number" id="progress-value" min="0" max="100" placeholder="0" class="progress__input-value">
+            <label for="progress-value" class="progress__label">Value</label>
+          </div>
+
+          <div class="progress__input ">
+            <label class="progress__switch progress__animate">
+              <input type="checkbox" id="progress-animated" class="progress__input-switch">
+              <span class="progress__slider"></span>
+            </label>
+            <label for="progress-animated" class="progress__label">Animate</label>
+          </div>
+
+          <div class="progress__input">
+            <label class="progress__switch progress__hide">
+              <input type="checkbox" id="progress-hidden" class="progress__input-switch ">
+              <span class="progress__slider "></span>
+            </label>
+            <label for="progress-hidden" class="progress__label">Hide</label>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <script src="./pages/index.js" type="module"></script>
+</body>
+
+</html>

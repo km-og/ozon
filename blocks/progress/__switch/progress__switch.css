@@ -1,0 +1,12 @@
+.progress__switch {
+  position: relative;
+  width: 67px;
+  height: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .progress__switch {
+    width: 57px;
+    height: 30px;
+  }
+}
